@@ -1,0 +1,59 @@
+.centered-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+.header img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+}
+ion-list{
+    margin-top: 20px;
+}
+ion-item{
+    margin: 5px;
+    border-radius: 10px;
+}
+.form{
+    margin: 1rem;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+.form2{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+ion-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+ion-row{
+    padding-top: -30px;
+    padding-bottom: 1%;
+    margin: 2%;
+}
+ion-col{
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

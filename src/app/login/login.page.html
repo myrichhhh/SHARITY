@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar class="centered-header">
+    <ion-title>LOG IN</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="ion-padding">
+  <div class="header">
+    <img src="../assets/login.png" alt="">
+  </div>
+  
+    <ion-list>
+      <div class="form">
+        <ion-item>
+          <ion-input label="Email" label-placement="stacked" placeholder="juandelacruz@gmail.com"></ion-input>
+        </ion-item>
+      </div>
+      <div class="form2">
+        <ion-item>
+          <ion-input label="Password" type="password"label-placement="stacked" placeholder="Enter your Password"></ion-input>
+        </ion-item>
+      </div>
+      <ion-row>
+        <ion-col>
+          <a [routerLink]="['/forgotpassword']" class="small-text">Forgot Password?</a>
+          <ion-button type="submit"  >Log in</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-list>
+    <div class="register">
+      <ion-label routerLink="/register">
+        Don't have an account?
+      </ion-label>
+    </div>
+
+</ion-content>
