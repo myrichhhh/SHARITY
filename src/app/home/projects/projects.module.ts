@@ -13,7 +13,8 @@ import { ProjectsPage } from './projects.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    ProjectsPageRoutingModule
+    ProjectsPageRoutingModule,
+
   ],
   declarations: [ProjectsPage]
 })
