@@ -1,3 +1,24 @@
+.centered-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Inter;
+}
+ion-menu::part(backdrop) {
+    background-color: rgb(26,143,227);
+}
+  
+  ion-menu::part(container) {
+    border-radius: 0 20px 20px 0;
+    box-shadow: 4px 0px 16px rgb(26,143,227);
+}
+
 ion-col{
     flex-grow: 0;
+}
+.open-modal{
+    margin-top: 10rem;
+    margin-right: 10rem;
+    margin-left: 10rem;
 }
