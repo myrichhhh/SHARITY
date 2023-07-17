@@ -2,6 +2,7 @@ import { Component, ViewChild } from '@angular/core';
 import { IonModal } from '@ionic/angular';
 import { OverlayEventDetail } from '@ionic/core/components';
 
+
 @Component({
   selector: 'app-projects',
   templateUrl: './projects.page.html',
