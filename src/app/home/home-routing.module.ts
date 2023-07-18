@@ -10,6 +10,14 @@ const routes: Routes = [
   {
     path: 'projects',
     loadChildren: () => import('./projects/projects.module').then( m => m.ProjectsPageModule)
+  },
+  {
+    path: 'profile',
+    loadChildren: () => import('../home/profile/profile.module').then( m => m.ProfilePageModule) 
+  },
+  {
+    path: 'list-projects',
+    loadChildren: () => import('./list-projects/list-projects.module').then( m => m.ListProjectsPageModule)
   }
 ];
 

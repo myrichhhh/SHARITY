@@ -1,0 +1,95 @@
+<ion-app>
+    <ion-menu contentId="main-content">
+      <ion-header>
+        <ion-toolbar color="primary">
+          <ion-title>SHARITY</ion-title>
+        </ion-toolbar>
+      </ion-header>
+  
+      <ion-content class="ion-padding">
+        <ion-list>
+          <ion-list>
+            <ion-button expand="full" fill="clear" routerLink="/dashboard">
+              <ion-icon name="desktop-outline" slot="start"></ion-icon>
+              <ion-label>Dashboard</ion-label>
+            </ion-button>
+  
+            <ion-button expand="full" fill="clear">
+              <ion-icon name="folder-outline" slot="start"></ion-icon>
+              <ion-label>Profile</ion-label>
+            </ion-button>
+  
+            <ion-button expand="full" fill="clear" routerLink="/home/list-projects">
+              <ion-icon name="folder-outline" slot="start"></ion-icon>
+              <ion-label>Projects</ion-label>
+            </ion-button>            
+  
+            <ion-button expand="full" fill="clear" routerLink="/home">
+              <ion-icon name="log-out-outline" slot="start"></ion-icon>
+              <ion-label>Log out</ion-label>
+            </ion-button>
+          </ion-list>
+  
+        </ion-list>
+      </ion-content>
+    </ion-menu>
+  
+    <div class="ion-page" id="main-content">
+      <ion-header>
+        <ion-toolbar>
+          <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+          </ion-buttons>
+          <ion-title>Profile</ion-title>
+        </ion-toolbar>
+      </ion-header>
+  
+      <ion-content class="ion-padding">
+        <div class="profile-section">
+          <div class="cover-photo"></div>
+          <div class="profile-picture"></div>
+          <div class="profile-details">
+            <!-- Profile Details -->
+            <ion-item-divider></ion-item-divider>
+            <ion-item>
+              <ion-label>First Name</ion-label>
+              <ion-input [(ngModel)]="firstName"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label>Middle Name</ion-label>
+              <ion-input [(ngModel)]="middleName"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label>Last Name</ion-label>
+              <ion-input [(ngModel)]="lastName"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label>Age</ion-label>
+              <ion-input [(ngModel)]="age"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label>Address</ion-label>
+              <ion-input [(ngModel)]="address"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label>Gender</ion-label>
+              <ion-select [(ngModel)]="gender">
+                <ion-select-option value="male">Male</ion-select-option>
+                <ion-select-option value="female">Female</ion-select-option>
+              </ion-select>
+            </ion-item>
+            <ion-item>
+              <ion-label>Phone Number</ion-label>
+              <ion-input [(ngModel)]="phoneNumber"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label>Email Account</ion-label>
+              <ion-input [(ngModel)]="email"></ion-input>
+            </ion-item>
+          </div>
+        </div>
+      </ion-content>
+    </div>
+    <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+  </ion-app>
+  
