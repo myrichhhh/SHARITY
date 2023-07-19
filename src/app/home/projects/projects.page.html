@@ -9,30 +9,28 @@
     <ion-content class="ion-padding">
       <ion-list>
         <ion-list>
-           
           <ion-button expand="full" fill="clear" routerLink="/dashboard">
             <ion-icon name="desktop-outline" slot="start"></ion-icon>
             <ion-label>Dashboard</ion-label>
           </ion-button>
-          
+
           <hr class="custom-divider">
           <ion-button expand="full" fill="clear" routerLink="/home/profile">
             <ion-icon name="folder-outline" slot="start"></ion-icon>
             <ion-label>Profile</ion-label>
           </ion-button>
-          
+
           <hr class="custom-divider">
           <ion-button expand="full" fill="clear" routerLink="/home/list-projects">
             <ion-icon name="folder-outline" slot="start"></ion-icon>
             <ion-label>Projects</ion-label>
           </ion-button>
-          
+
           <hr class="custom-divider">
           <ion-button expand="full" fill="clear" routerLink="/home">
             <ion-icon name="log-out-outline" slot="start"></ion-icon>
             <ion-label>Log out</ion-label>
           </ion-button>
-        
         </ion-list>
       </ion-list>
     </ion-content>
@@ -47,49 +45,48 @@
         <ion-title>Menu</ion-title>
       </ion-toolbar>
     </ion-header>
-
     <ion-content class="ion-padding">
-      <ion-card>
-        <img class="responsive-image" alt="Projects" src="../../assets/Project1.png" />
-        <ion-card-header>
-          <ion-card-title>Project Pawssion</ion-card-title>
-          <ion-card-subtitle>April 27, 2023</ion-card-subtitle>
-        </ion-card-header>
-        <ion-card-content>
-          A JCI Batangas-Balisong project that helps stray dogs that found their home in dog shelters by giving them vaccines and food.
-        </ion-card-content>
-        <ion-button fill="clear">Edit</ion-button>
-        <ion-button fill="clear">Add</ion-button>
-        <ion-button fill="clear">Delete</ion-button>
-    </ion-card>
 
-      <ion-card>
-        <img class="responsive-image" alt="Projects" src="../../assets/Project2.png" />
-        <ion-card-header>
-          <ion-card-title>Beyond Prison Wall</ion-card-title>
-          <ion-card-subtitle>April 29, 2023</ion-card-subtitle>
-        </ion-card-header>
-        <ion-card-content>
-          A JCI Batangas-Balisong project that helps PDLs or Persons Deprived of Liberty by giving them food and other necessities as a way of bringing happiness to them despite their current situation.
-        </ion-card-content>
-        <ion-button fill="clear">Edit</ion-button>
-        <ion-button fill="clear">Add</ion-button>
-        <ion-button fill="clear">Delete</ion-button>
-      </ion-card>
+      <ion-button expand="full" fill="clear" (click)="addProject()">Add Project</ion-button>
 
-      <ion-card>
-        <img class="responsive-image" alt="Projects" src="../../assets/Project3.png" />
+      <ion-card *ngFor="let project of projects; let i = index">
+        <img class="responsive-image" [src]="project.image" [alt]="project.title" />
         <ion-card-header>
-          <ion-card-title>Gawad Balisong</ion-card-title>
-          <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+          <ion-card-title>
+            <ng-container *ngIf="selectedProject === project; else displayTitle">
+              <ion-input [(ngModel)]="project.title"></ion-input>
+            </ng-container>
+            <ng-template #displayTitle>
+              {{ project.title }}
+            </ng-template>
+          </ion-card-title>
+          <ion-card-subtitle>
+            <ng-container *ngIf="selectedProject === project; else displaySubtitle">
+              <ion-input [(ngModel)]="project.subtitle"></ion-input>
+            </ng-container>
+            <ng-template #displaySubtitle>
+              {{ project.subtitle }}
+            </ng-template>
+          </ion-card-subtitle>
         </ion-card-header>
         <ion-card-content>
-          The Gawad Balisong aims to recognize outstanding Filipino individuals and leaders - living or deceased - who have selflessly demonstrated exceptional character and values, commitment in solving pressing issues, and engagement on different platforms to amplify their voice.
+          <ng-container *ngIf="selectedProject === project; else displayDescription">
+            <ion-textarea [(ngModel)]="project.description"></ion-textarea>
+          </ng-container>
+          <ng-template #displayDescription>
+            {{ project.description }}
+          </ng-template>
         </ion-card-content>
-        <ion-button fill="clear">Edit</ion-button>
-        <ion-button fill="clear">Add</ion-button>
-        <ion-button fill="clear">Delete</ion-button>
+        <ng-container *ngIf="selectedProject === project; else displayButtons">
+          <ion-button fill="clear" (click)="saveProject(project)">Save</ion-button>
+          <ion-button fill="clear" (click)="cancelEdit()">Cancel</ion-button>
+        </ng-container>
+        <ng-template #displayButtons>
+          <ion-button fill="clear" (click)="editProject(project)">Edit</ion-button>
+          <ion-button fill="clear" (click)="deleteProject(i)">Delete</ion-button>
+        </ng-template>
       </ion-card>
+      
     </ion-content>
   </div>
   
