@@ -72,3 +72,9 @@ ion-menu::part(container) {
 ion-icon {
   color: #92949c;
 }
+.custom-divider {
+  height: 1px;
+  border: none;
+  background-color: #7a7a7a; 
+  margin: 2px 0;
+}
