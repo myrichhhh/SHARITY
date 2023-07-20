@@ -11,4 +11,5 @@
 Overall, Sharity for JCI Batangas-Balisong members offers a straightforward platform to oversee projects efficiently while keeping donors engaged and well-informed about the projects' progress and the impact of their contributions. Meanwhile, the web-based platform caters to donors and admin, handling donation-related tasks and serving as an informational hub for website users.
 
 ***
+<h3 align="center">SUSTAINABLE DEVELOPMENT GOALS (SDGs)</h3>
 ![SUSTAINABLE DEVELOPMENT GOAL](https://cdn.imweb.me/upload/S202108243f92708905182/30f66bcbb41c7.jpg)
