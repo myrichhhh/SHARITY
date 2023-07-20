@@ -60,3 +60,12 @@ the application meets all requirements.</p>
 ![Design](images/2.png)
 
 ![Design](images/3.png)
+
+***
+<h3>TEAM MEMBERS</h3>
+
+<h2>GODOY, GEOFREY MIGUEL M.</h2>
+
+<h2>GONZALES, MYRISH C.</h2>
+
+<h2>IBABAO, GABRIEL ALEXIS A.</h2>
