@@ -25,3 +25,5 @@
 <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The impact of the COVID-19 pandemic reversed the steady progress of poverty reduction over the past 25 years. This unprecedented reversal is being further exacerbated by rising inflation and the impacts of the war in Ukraine. It is estimated that these combined crises will lead to an additional 75 million–95 million people living in extreme poverty in 2022, compared with pre-pandemic projections.</p>
 
 ***
+
+<h3>DEVELOPMENT MODEL</h3>
