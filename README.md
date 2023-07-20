@@ -12,6 +12,6 @@ Overall, Sharity for JCI Batangas-Balisong members offers a straightforward plat
 
 ***
 <h3>SUSTAINABLE DEVELOPMENT GOALS (SDGs)</h3>
-
+***
 
 ![PROJECT G! SDG](https://cdn.imweb.me/upload/S202108243f92708905182/30f66bcbb41c7.jpg)
