@@ -54,4 +54,5 @@ the application meets all requirements.</p>
 
 ***
 <h3>GRAPHICAL USER INTERFACE</h3>
+
 ![Design](images/1.png)
