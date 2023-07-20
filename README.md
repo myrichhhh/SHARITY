@@ -11,12 +11,17 @@
 Overall, Sharity for JCI Batangas-Balisong members offers a straightforward platform to oversee projects efficiently while keeping donors engaged and well-informed about the projects' progress and the impact of their contributions. Meanwhile, the web-based platform caters to donors and admin, handling donation-related tasks and serving as an informational hub for website users.
 
 ***
+
 <h3>SUSTAINABLE DEVELOPMENT GOALS (SDGs)</h3>
 
 
 ![PROJECT G! SDG](https://cdn.imweb.me/upload/S202108243f92708905182/30f66bcbb41c7.jpg)
+
+
+
 <p align="center"><strong>Goal 1: End poverty in all its forms everywhere</strong></p>
-<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eradicating extreme poverty for all people everywhere by 2030 is a pivotal goal of the 2030 Agenda for Sustainable Development. Between 2015 and 2018, global poverty continued its historical decline, with the poverty rate falling from 10.1 per cent in 2015 to 8.6 per cent in 2018. Nowcasts suggest that owing to the COVID-19 pandemic, the global poverty rate increased sharply from 8.3 per cent in 2019 to 9.2 per cent in 2020, representing the first increase in extreme poverty since 1998 and the largest increase since 1990 and setting back poverty reduction by about three years.</p>
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Eradicating extreme poverty for all people everywhere by 2030 is a pivotal goal of the 2030 Agenda for Sustainable Development. Between 2015 and 2018, global poverty continued its historical decline, with the poverty rate falling from 10.1 percent in 2015 to 8.6 percent in 2018. Nowcasts suggest that owing to the COVID-19 pandemic, the global poverty rate increased sharply from 8.3 percent in 2019 to 9.2 percent in 2020, representing the first increase in extreme poverty since 1998 and the largest increase since 1990 and setting back poverty reduction by about three years.</p>
 
-<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The impact of the COVID-19 pandemic reversed the steady progress of poverty reduction over the past 25 years. This unprecedented reversal is being further exacerbated by rising inflation and the impacts of the war in Ukraine. It is estimated that these combined crises will lead to an additional 75 million–95 million people living in extreme poverty in 2022, compared with pre-pandemic projections.</p>
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The impact of the COVID-19 pandemic reversed the steady progress of poverty reduction over the past 25 years. This unprecedented reversal is being further exacerbated by rising inflation and the impacts of the war in Ukraine. It is estimated that these combined crises will lead to an additional 75 million–95 million people living in extreme poverty in 2022, compared with pre-pandemic projections.</p>
 
+***
