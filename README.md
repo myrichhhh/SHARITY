@@ -50,6 +50,8 @@ the application meets all requirements.</p>
 <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Launch web-based application post-testing for user access and usage.</p>
 
 <strong> <p align="justify">MAINTENANCE</p> </strong> 
-<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LThe team plans to review and maintain the web-based application issues and resolve them during this phase.</p>
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The team plans to review and maintain the web-based application issues and resolve them during this phase.</p>
 
 ***
+<h3>GRAPHICAL USER INTERFACE</h3>
+![Design](images/1.png)
