@@ -8,7 +8,7 @@
 
 <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The dashboard allows members to easily track the progress of each project and the corresponding donations received. They can view important project milestones, deadlines, and the total amount of contributions raised. One of the essential features of Sharity is the ability for members to add new projects with all the necessary details, such as project titles, descriptions, goals, and expected outcomes. Moreover, the app allows members to edit existing projects, ensuring that all project information remains accurate and up-to-date. To keep donors and website users informed, Sharity enables members to share timely updates and announcements about ongoing projects and the impact of donations. This ensures transparency and builds trust with donors, helping them understand the organization's work and accomplishments better.</p>
 
-Overall, Sharity for JCI Batangas-Balisong members offers a straightforward platform to oversee projects efficiently while keeping donors engaged and well-informed about the projects' progress and the impact of their contributions. Meanwhile, the web-based platform caters to donors and admin, handling donation-related tasks and serving as an informational hub for website users.
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Overall, Sharity for JCI Batangas-Balisong members offers a straightforward platform to oversee projects efficiently while keeping donors engaged and well-informed about the projects' progress and the impact of their contributions. Meanwhile, the web-based platform caters to donors and admin, handling donation-related tasks and serving as an informational hub for website users. </p>
 
 ***
 
