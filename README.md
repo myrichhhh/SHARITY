@@ -29,3 +29,5 @@
 <h3>DEVELOPMENT MODEL</h3>
 
 ![Agile](images/AGILE.png)
+
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The group developed the application using the web-based development lifecycle. the planning or commencement phase and the requirement analysis phase, the de-application signature, the creation stage, application testing or debugging, launch or Review, and deployment.</p>
