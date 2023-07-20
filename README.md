@@ -1,6 +1,6 @@
 # <h2 align="center">SHARITY: Online Donation and Project Management System for JCI Batangas Province with Advanced Analytics for Efficient Resource Allocation and Impact Assessment</h2>
 ***
-<h3 align="center">PROJECT DESCRIPTION</h3>
+<h3>PROJECT DESCRIPTION</h3>
 
 <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The development of SHARITY, an online donation and project management system, to support the vision and requirements of the JCI Batangas-Balisong chapter in addressing poverty eradication, in line with the United Nations Sustainable Development Goal (SDG) 1. It aims to enhance fundraising activities and broaden the reach of individuals willing to help those in need. It will provide a reliable, reputable, and efficient platform for donors and creators to contribute to poverty alleviation. The JCI Batangas-Balisong chapter, a non-profit organization, aims to empower young individuals in creating positive change and has the vision to be one of the top-performing chapters in the Philippines. It will address challenges faced by the organization, such as the need for a responsive, user-friendly, secure, and visually appealing application.</p>
 
@@ -10,7 +10,5 @@
 
 Overall, Sharity for JCI Batangas-Balisong members offers a straightforward platform to oversee projects efficiently while keeping donors engaged and well-informed about the projects' progress and the impact of their contributions. Meanwhile, the web-based platform caters to donors and admin, handling donation-related tasks and serving as an informational hub for website users.
 
-***
-<h3 align="center">SUSTAINABLE DEVELOPMENT GOALS (SDGs)</h3>
 ***
 ![SUSTAINABLE DEVELOPMENT GOAL](https://cdn.imweb.me/upload/S202108243f92708905182/30f66bcbb41c7.jpg)
