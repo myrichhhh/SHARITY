@@ -33,3 +33,23 @@
 <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The group developed the application using the web-based development lifecycle. the planning or commencement phase and the requirement analysis phase, the de-application signature, the creation stage, application testing or debugging, launch or Review, and deployment.</p>
 
 <strong> <p align="justify">PLAN</p> </strong> 
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The team aims to create a web-based application with real-time weather reports and a user-friendly interface, focusing on a simple and easy-to-navigate interface.</p>
+
+<strong> <p align="justify">DESIGN</p> </strong> 
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The team evaluates requirements to determine software tools for development, using wireframes and mock-ups to showcase the web-based application structure. They aim to
+make the graphical interface user-friendly and simple to use.</p>
+
+<strong> <p align="justify">DEVELOP</p> </strong> 
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; During this phase, the team creates code and transforms the mock-up design into a web-based application. They aim to create a compliant and effective application that meets user requirements and meets the system's objectives.</p>
+
+<strong> <p align="justify">TEST</p> </strong> 
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; During the coding phase, the team conducts tests to ensure code cleanliness, bug-free web application, and meeting requirements, ensuring the web-based
+the application meets all requirements.</p>
+
+<strong> <p align="justify">LAUNCH</p> </strong> 
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Launch web-based application post-testing for user access and usage.</p>
+
+<strong> <p align="justify">MAINTENANCE</p> </strong> 
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LThe team plans to review and maintain the web-based application issues and resolve them during this phase.</p>
+
+***
