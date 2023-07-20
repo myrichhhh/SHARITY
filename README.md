@@ -27,3 +27,4 @@
 ***
 
 <h3>DEVELOPMENT MODEL</h3>
+![Agile](Images/AGILE.png)
