@@ -31,3 +31,5 @@
 ![Agile](images/AGILE.png)
 
 <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The group developed the application using the web-based development lifecycle. the planning or commencement phase and the requirement analysis phase, the de-application signature, the creation stage, application testing or debugging, launch or Review, and deployment.</p>
+
+<strong> <p align="justify">PLAN</p> </strong> 
