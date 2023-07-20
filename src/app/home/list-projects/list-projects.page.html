@@ -1,0 +1,123 @@
+<ion-app>
+  <ion-menu contentId="main-content">
+    <ion-header>
+      <ion-toolbar color="primary">
+        <ion-title>SHARITY</ion-title>
+      </ion-toolbar>
+    </ion-header>
+
+    <ion-content class="ion-padding">
+      <ion-list> 
+        <ion-list>
+           
+          <ion-button expand="full" fill="clear" routerLink="/dashboard">
+            <ion-icon name="desktop-outline" slot="start"></ion-icon>
+            <ion-label>Dashboard</ion-label>
+          </ion-button>
+          
+          <hr class="custom-divider">
+          <ion-button expand="full" fill="clear" routerLink="/home/profile">
+            <ion-icon name="person-outline" slot="start"></ion-icon>
+            <ion-label>Profile</ion-label>
+          </ion-button>
+          
+          <hr class="custom-divider">
+          <ion-button expand="full" fill="clear">
+            <ion-icon name="folder-outline" slot="start"></ion-icon>
+            <ion-label>Projects</ion-label>
+          </ion-button>
+          
+          <hr class="custom-divider">
+          <ion-button expand="full" fill="clear" routerLink="/home">
+            <ion-icon name="log-out-outline" slot="start"></ion-icon>
+            <ion-label>Log out</ion-label>
+          </ion-button>
+        </ion-list>
+        
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+
+  <div class="ion-page" id="main-content">
+    <ion-header>
+      <ion-toolbar>
+        <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title>Projects</ion-title>
+      </ion-toolbar>
+    </ion-header>
+
+    
+    <ion-content class="ion-padding">
+      <ion-card>
+        <img class="responsive-image" alt="Projects" src="../../assets/Project.png" />
+        <ion-card-header>
+          <ion-card-title>Bitamina para sa Toda</ion-card-title>
+          <ion-card-subtitle>August 29, 2022</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          By providing vitamins to tricycle drivers, the JCI project seeks to support their overall health and enhance their resilience. The vitamins can help address potential nutrient deficiencies and promote better immune system function, energy levels, and overall well-being. The project aims to contribute to the physical and mental health of tricycle drivers, ensuring they can continue their work effectively while maintaining good health.
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card>
+        <img class="responsive-image" alt="Projects" src="../../assets/Project2.png" />
+        <ion-card-header>
+          <ion-card-title>Beyond Prison Wall</ion-card-title>
+          <ion-card-subtitle>April 29, 2023</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          A JCI Batangas-Balisong project that helps PDLs or Persons Deprived of Liberty by giving them food and other necessities as a way of bringing happiness to them despite their current situation.
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card>
+        <img class="responsive-image" alt="Projects" src="../../assets/Project3.png" />
+        <ion-card-header>
+          <ion-card-title>Gawad Balisong</ion-card-title>
+          <ion-card-subtitle></ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          The Gawad Balisong aims to recognize outstanding Filipino individuals and leaders - living or deceased - who have selflessly demonstrated exceptional character and values, commitment in solving pressing issues, and engagement on different platforms to amplify their voice.
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card>
+        <img class="responsive-image" alt="Projects" src="../../assets/Project4.png" />
+        <ion-card-header>
+          <ion-card-title>Gift Love Ngayong Pasko</ion-card-title>
+          <ion-card-subtitle>December 18, 2022</ion-card-subtitle>
+        </ion-card-header>
+
+        <ion-card-content>
+          A JCI Batangas-Balisong project that is dine yearly to celebrate the holiday season and feel the Christmas spirit. Every year, the organization visits and gives families an enjoyable and memorable Christmas party that brings delight and happiness to their hearts.
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card>
+        <img class="responsive-image" alt="Projects" src="../../assets/Project5.png" />
+        <ion-card-header>
+          <ion-card-title>Project Mundo: Coastal Clean Up</ion-card-title>
+          <ion-card-subtitle>June 10, 2023</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+        An initiative led by an organization or group that focuses on cleaning up and preserving coastal areas. The project aims to raise awareness about the importance of maintaining clean and healthy coastlines while actively working towards their restoration.
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card>
+        <img class="responsive-image" alt="Projects" src="../../assets/Project1.png" />
+        <ion-card-header>
+          <ion-card-title>Project Pawssion</ion-card-title>
+          <ion-card-subtitle>April 27, 2023</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          A JCI Batangas-Balisong project that helps stray dogs that found their home in dog shelters by giving them vaccines and food.
+        </ion-card-content>
+      </ion-card>
+
+    </ion-content>
+  </div>
+  <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+</ion-app>

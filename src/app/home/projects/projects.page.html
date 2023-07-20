@@ -1,61 +1,94 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>projects</ion-title>
-  </ion-toolbar>
-</ion-header>
-<ion-content>
-  <ion-row>
-    <ion-col>
-      <ion-button id="open-modal">
-      Add
-      </ion-button>
-    </ion-col>
-    <ion-col>
-      <ion-button>
-      Delete
-      </ion-button>
-    </ion-col>
-  </ion-row>
-  <ion-modal trigger="open-modal" (willDismiss)="onWillDismiss($event)">
-    <ng-template>
-      <ion-header>
-        <ion-toolbar>
-          <ion-buttons slot="start">
-            <ion-button (click)="cancel()">Cancel</ion-button>
-          </ion-buttons>
-          <ion-title>Welcome</ion-title>
-          <ion-buttons slot="end">
-            <ion-button (click)="confirm()" [strong]="true">Confirm</ion-button>
-          </ion-buttons>
-        </ion-toolbar>
-      </ion-header>
-      <ion-content class="ion-padding">
-        <ion-item>
-          <ion-label position="stacked">Enter your project title</ion-label>
-          <ion-input type="text" placeholder="Your Project title" [(ngModel)]="title"></ion-input>
-        </ion-item>
-        <ion-item>
-          <ion-label position="stacked">Describe your project</ion-label>
-          <ion-input type="text" placeholder="Your Description" [(ngModel)]="description"></ion-input>
-        </ion-item>
-      </ion-content>
-    </ng-template>
-  </ion-modal>
+<ion-app>
+  <ion-menu contentId="main-content">
+    <ion-header>
+      <ion-toolbar color="primary">
+        <ion-title>SHARITY</ion-title>
+      </ion-toolbar>
+    </ion-header>
 
+    <ion-content class="ion-padding">
+      <ion-list>
+        <ion-list>
+          <ion-button expand="full" fill="clear" routerLink="/dashboard">
+            <ion-icon name="desktop-outline" slot="start"></ion-icon>
+            <ion-label>Dashboard</ion-label>
+          </ion-button>
 
+          <hr class="custom-divider">
+          <ion-button expand="full" fill="clear" routerLink="/home/profile">
+            <ion-icon name="person-outline" slot="start"></ion-icon>
+            <ion-label>Profile</ion-label>
+          </ion-button>
 
+          <hr class="custom-divider">
+          <ion-button expand="full" fill="clear" routerLink="/home/list-projects">
+            <ion-icon name="folder-outline" slot="start"></ion-icon>
+            <ion-label>Projects</ion-label>
+          </ion-button>
 
-  <!-- Show the card of projects -->
-  <ion-card>
-    <ion-card-header>
-      <ion-card-title>{{title}}</ion-card-title>
+          <hr class="custom-divider">
+          <ion-button expand="full" fill="clear" routerLink="/home">
+            <ion-icon name="log-out-outline" slot="start"></ion-icon>
+            <ion-label>Log out</ion-label>
+          </ion-button>
+        </ion-list>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+
+  <div class="ion-page" id="main-content">
+    <ion-header>
+      <ion-toolbar>
+        <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title>Menu</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content class="ion-padding">
+
+      <ion-button expand="full" fill="clear" (click)="addProject()">Add Project</ion-button>
+
+      <ion-card *ngFor="let project of projects; let i = index">
+        <img class="responsive-image" [src]="project.image" [alt]="project.title" />
+        <ion-card-header>
+          <ion-card-title>
+            <ng-container *ngIf="selectedProject === project; else displayTitle">
+              <ion-input [(ngModel)]="project.title"></ion-input>
+            </ng-container>
+            <ng-template #displayTitle>
+              {{ project.title }}
+            </ng-template>
+          </ion-card-title>
+          <ion-card-subtitle>
+            <ng-container *ngIf="selectedProject === project; else displaySubtitle">
+              <ion-input [(ngModel)]="project.subtitle"></ion-input>
+            </ng-container>
+            <ng-template #displaySubtitle>
+              {{ project.subtitle }}
+            </ng-template>
+          </ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          <ng-container *ngIf="selectedProject === project; else displayDescription">
+            <ion-textarea [(ngModel)]="project.description"></ion-textarea>
+          </ng-container>
+          <ng-template #displayDescription>
+            {{ project.description }}
+          </ng-template>
+        </ion-card-content>
+        <ng-container *ngIf="selectedProject === project; else displayButtons">
+          <ion-button fill="clear" (click)="saveProject(project)">Save</ion-button>
+          <ion-button fill="clear" (click)="cancelEdit()">Cancel</ion-button>
+        </ng-container>
+        <ng-template #displayButtons>
+          <ion-button fill="clear" (click)="editProject(project)">Edit</ion-button>
+          <ion-button fill="clear" (click)="deleteProject(i)">Delete</ion-button>
+        </ng-template>
+      </ion-card>
       
-    </ion-card-header>
+    </ion-content>
+  </div>
   
-    <ion-card-content>
-      {{description}}
-    </ion-card-content>
-  </ion-card>
-
-
-</ion-content>
+  <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+</ion-app>
